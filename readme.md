@@ -1,50 +1,72 @@
-⚡ AreadmeForge
+<p align="center">
+  <img src="assets/banner.png" alt="AreadmeForge Banner" width="100%" />
+</p>
 
-Forge an elite GitHub profile README in seconds — zero dependencies, zero build step, one HTML file.
+<h1 align="center">⚡ AreadmeForge</h1>
 
-License: MIT
-HTML5
-CSS3
-JavaScript
-Zero Dependencies
-Works Offline
-GitHub Stars
+<p align="center">
+  <em>Forge an elite GitHub profile README in seconds — zero dependencies, zero build step, one HTML file.</em>
+</p>
 
-🚀 Live Demo &nbsp;·&nbsp; 🐛 Report Bug &nbsp;·&nbsp; ✨ Request Feature &nbsp;·&nbsp; 📖 Docs
+<p align="center">
+  <a href="https://github.com/aghorbani84/AreadmeForge/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Zero-Dependencies-green.svg" alt="Zero Dependencies" />
+  <img src="https://img.shields.io/badge/Works-Offline-brightgreen.svg" alt="Works Offline" />
+</p>
 
-TL;DR — Open index.html, customize your identity, toggle widgets, hit Download, drop the resulting README.md into a repository named after your GitHub username, and your profile instantly looks like a senior engineer's. That's it. No Node, no Python, no Docker, no account, no telemetry.
+<p align="center">
+  <a href="https://aghorbani84.github.io/AreadmeForge/">🚀 Live Demo</a> &nbsp;·&nbsp;
+  <a href="https://github.com/aghorbani84/AreadmeForge/issues">🐛 Report Bug</a> &nbsp;·&nbsp;
+  <a href="https://github.com/aghorbani84/AreadmeForge/issues">✨ Request Feature</a>
+</p>
 
-📑 Table of Contents
+---
 
-🧠 About
-🎯 Why AreadmeForge?
-✨ Features
-🧩 Widget Catalog
-🚀 Quick Start
-📖 Usage Guide
-⌨️ Keyboard Shortcuts
-Tech Stack
-📁 Project Structure
-🏗️ How It Works
-🎨 Customization Tips
-🗺️ Roadmap
-🤝 Contributing
-❓ FAQ
-📄 License
-🙏 Acknowledgments
-👤 Author
+## TL;DR
 
-🧠 About
+Open `index.html`, customize your identity, toggle widgets, hit **Download**, drop the resulting `README.md` into a repository named after your GitHub username, and your profile instantly looks like a senior engineer's. That's it. No Node, no Python, no Docker, no account, no telemetry.
 
-AreadmeForge is a single-file, zero-dependency web application that generates production-grade, GitHub-flavored README.md files for your personal profile or any repository. It ships with a live preview pane that renders exactly like GitHub does, a themeable accent system, a curated tech-stack picker powered by devicon, and a modular widget engine (stats, streak, trophies, contribution snake, typing header, wave banner, profile views).
+## 📑 Table of Contents
 
-It was built for engineers who care about craft — people who want a profile that looks intentional, not copy-pasted from a tutorial.
+- [🧠 About](#-about)
+- [🎯 Why AreadmeForge?](#-why-areadreforge)
+- [✨ Features](#-features)
+- [🧩 Widget Catalog](#-widget-catalog)
+- [🚀 Quick Start](#-quick-start)
+- [📖 Usage Guide](#-usage-guide)
+- [⌨️ Keyboard Shortcuts](#️-keyboard-shortcuts)
+- [🧰 Tech Stack](#-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [🏗️ How It Works](#️-how-it-works)
+- [🎨 Customization Tips](#-customization-tips)
+- [🗺️ Roadmap](#️-roadmap)
+- [🤝 Contributing](#-contributing)
+- [❓ FAQ](#-faq)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [👤 Author](#-author)
 
-🎯 Why AreadmeForge?
+---
+
+## 🧠 About
+
+**AreadmeForge** is a single-file, zero-dependency web application that generates production-grade, GitHub-flavored `README.md` files for your personal profile or any repository. It ships with:
+
+- A **live preview pane** that renders exactly like GitHub does
+- A **themeable accent system** with 6 presets + custom color picker
+- A **curated tech-stack picker** powered by devicon
+- A **modular widget engine** — stats, streak, trophies, contribution snake, typing header, wave banner, profile views
+
+Built for engineers who care about craft — people who want a profile that looks intentional, not copy-pasted from a tutorial.
+
+## 🎯 Why AreadmeForge?
 
 | Concern | Other generators | AreadmeForge |
 |---|---|---|
-| Setup | npm install, build, deploy | ✅ Open one HTML file |
+| Setup | `npm install`, build, deploy | ✅ Open one HTML file |
 | Telemetry / accounts | Often required | ✅ None — 100% client-side |
 | Offline use | ❌ Usually broken | ✅ Works offline |
 | Live GitHub-style preview | ⚠️ Sometimes | ✅ Pixel-accurate |
@@ -52,114 +74,123 @@ It was built for engineers who care about craft — people who want a profile th
 | Code quality | 🤷 | ✅ Vanilla, readable, no framework lock-in |
 | Output | Bloated templates | ✅ Clean, commented Markdown |
 
-✨ Features
+## ✨ Features
 
-🌊 Wave banner with gradient header & footer (capsule-render)
-⌨️ Typing animation with custom roles (readme-typing-svg)
-📊 GitHub stats + top languages cards
-🔥 Streak graph (streak-stats)
-🏆 Trophy case (github-profile-trophy)
-🐍 Contribution snake (Platane/snk)
-👀 Profile views counter (komarev/ghpvc)
-🛠 Tech stack picker — 11+ curated skills with devicon badges
-🔗 Social links — auto-generated shields.io badges, only filled links are exported
-🎨 Accent theming — 6 presets + custom color picker with auto-complementary hue
-👁 Live preview / raw markdown tabs
-📋 One-click copy to clipboard
-⬇ Download README.md with proper UTF-8 encoding
-⌨️ Keyboard shortcuts (Ctrl/⌘ + S to export)
-📱 Fully responsive — works on mobile, tablet, desktop
-🌙 Dark, modern UI with glassmorphism, animated blobs, and grid backdrop
-🚫 Zero runtime dependencies — only marked.js via CDN for preview rendering
+- 🌊 **Wave banner** with gradient header & footer ([capsule-render](https://github.com/kyechan99/capsule-render))
+- ⌨️ **Typing animation** with custom roles ([readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg))
+- 📊 **GitHub stats** + top languages cards ([github-readme-stats](https://github.com/anuraghazra/github-readme-stats))
+- 🔥 **Streak graph** ([streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats))
+- 🏆 **Trophy case** ([github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy))
+- 🐍 **Contribution snake** ([Platane/snk](https://github.com/Platane/snk))
+- 👀 **Profile views counter** ([komarev/ghpvc](https://github.com/komarev/ghpvc))
+- 🛠 **Tech stack picker** — 11+ curated skills with devicon badges
+- 🔗 **Social links** — auto-generated shields.io badges, only filled links are exported
+- 🎨 **Accent theming** — 6 presets + custom color picker with auto-complementary hue
+- 👁 **Live preview** / raw markdown tabs
+- 📋 **One-click copy** to clipboard
+- ⬇ **Download** `README.md` with proper UTF-8 encoding
+- ⌨️ **Keyboard shortcuts** (`Ctrl/⌘ + S` to export)
+- 📱 **Fully responsive** — works on mobile, tablet, desktop
+- 🌙 **Dark, modern UI** with glassmorphism, animated blobs, and grid backdrop
+- 🚫 **Zero runtime dependencies** — only marked.js via CDN for preview rendering
 
-🧩 Widget Catalog
+## 🧩 Widget Catalog
 
 | Widget | Source | Purpose |
 |---|---|---|
-| 🌊 Wave banner | capsule-render | Eye-catching header & footer |
-| ⌨️ Typing header | readme-typing-svg | Animated role showcase |
-| 📊 Stats cards | github-readme-stats | Commits, PRs, stars, top langs |
-| 🔥 Streak graph | streak-stats | Daily contribution streak |
-| 🏆 Trophy case | github-profile-trophy | Achievement showcase |
-| 🐍 Snake | Platane/snk | Animated contribution grid |
-| 👀 Views counter | komarev/ghpvc | Profile view tracking |
+| 🌊 Wave banner | [capsule-render](https://github.com/kyechan99/capsule-render) | Eye-catching header & footer |
+| ⌨️ Typing header | [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) | Animated role showcase |
+| 📊 Stats cards | [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | Commits, PRs, stars, top langs |
+| 🔥 Streak graph | [streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) | Daily contribution streak |
+| 🏆 Trophy case | [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) | Achievement showcase |
+| 🐍 Snake | [Platane/snk](https://github.com/Platane/snk) | Animated contribution grid |
+| 👀 Views counter | [komarev/ghpvc](https://github.com/komarev/ghpvc) | Profile view tracking |
 
-🚀 Quick Start
+## 🚀 Quick Start
 
-Option 1 — Use it online (recommended)
+### Option 1 — Use it online (recommended)
 
-Open 👉 
-Fill in your identity, pick skills, toggle widgets.
-Click ⬇ Download (or press Ctrl/⌘ + S).
-Create a new GitHub repository named exactly like your username (e.g. aghorbani84/aghorbani84).
-Upload the downloaded README.md to the root of that repo.
-✨ Visit your GitHub profile — your new README is live.
+1. Open 👉 [AreadmeForge Live](https://aghorbani84.github.io/AreadmeForge/)
+2. Fill in your identity, pick skills, toggle widgets.
+3. Click ⬇ **Download** (or press `Ctrl/⌘ + S`).
+4. Create a new GitHub repository named exactly like your username (e.g. `aghorbani84/aghorbani84`).
+5. Upload the downloaded `README.md` to the root of that repo.
+6. ✨ Visit your GitHub profile — your new README is live.
 
-Option 2 — Run it locally
-bash
-Clone the repository
+### Option 2 — Run it locally
+
+```bash
+# Clone the repository
 git clone https://github.com/aghorbani84/AreadmeForge.git
 cd AreadmeForge
 
-Open the file — that's literally it
-macOS
+# Open the file — that's literally it
+# macOS
 open index.html
-Linux
+# Linux
 xdg-open index.html
-Windows
+# Windows
 start index.html
+```
 
-💡 No npm install, no pip install, no build step. The entire app is one HTML file with embedded CSS and JS.
+> 💡 No `npm install`, no `pip install`, no build step. The entire app is one HTML file with embedded CSS and JS.
 
-📖 Usage Guide
+## 📖 Usage Guide
 
-👤 Identity section
-Display name — shown as the # I'm … heading.
-GitHub username — used to build stats/streak/trophy/snake URLs. Must match your real username.
-Headline — the ### … subheading (e.g. Software Engineer · Flutter × Rust).
-Typing roles — semicolon-separated roles for the typing animation (e.g. Software Engineer;Flutter Developer;Rustacean 🦀).
-Tagline — a one-paragraph intro used in the About Me section.
-About bullets — multi-line list; each line becomes a -  bullet.
+### 👤 Identity section
 
-🎨 Accent color
+- **Display name** — shown as the `# I'm …` heading.
+- **GitHub username** — used to build stats/streak/trophy/snake URLs. Must match your real username.
+- **Headline** — the `### …` subheading (e.g. `Software Engineer · Flutter × Rust`).
+- **Typing roles** — semicolon-separated roles for the typing animation (e.g. `Software Engineer;Flutter Developer;Rustacean 🦀`).
+- **Tagline** — a one-paragraph intro used in the About Me section.
+- **About bullets** — multi-line list; each line becomes a `- ` bullet.
+
+### 🎨 Accent color
+
 Pick a preset swatch or use the native color picker. AreadmeForge automatically derives a complementary hue for gradients (banner, buttons, glows).
 
-🛠️ Tech stack
-Click chips to toggle skills on/off. Selected skills are rendered as 44×44 devicon badges wrapped in links to each technology's official site.
+### 🛠️ Tech stack
 
-🧩 Widgets
+Click chips to toggle skills on/off. Selected skills are rendered as `44×44` devicon badges wrapped in links to each technology's official site.
+
+### 🧩 Widgets
+
 Toggle any combination of the 7 widgets. Disabled widgets are completely omitted from the output — no empty sections, no broken placeholders.
 
-🔗 Socials
+### 🔗 Socials
+
 Only non-empty social links are exported as shields.io badges. Leave a field blank to hide it.
 
-Preview & Export
-Switch between Preview (rendered HTML) and Markdown (raw source) tabs.
-📋 Copy — copies the raw Markdown to your clipboard.
-⬇ Download — saves README.md with UTF-8 encoding.
-The status bar shows live character and line counts.
+### Preview & Export
 
-⌨️ Keyboard Shortcuts
+- Switch between **Preview** (rendered HTML) and **Markdown** (raw source) tabs.
+- 📋 **Copy** — copies the raw Markdown to your clipboard.
+- ⬇ **Download** — saves `README.md` with UTF-8 encoding.
+- The status bar shows live character and line counts.
+
+## ⌨️ Keyboard Shortcuts
 
 | Shortcut | Action |
 |---|---|
-| Ctrl + S / ⌘ + S | Download README.md |
-| Tab | Navigate form fields |
-| Space | Toggle focused chip / switch |
+| `Ctrl + S` / `⌘ + S` | Download `README.md` |
+| `Tab` | Navigate form fields |
+| `Space` | Toggle focused chip / switch |
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 
 | Layer | Technology | Why |
 |---|---|---|
 | Markup | HTML5 | Semantic, accessible, zero build |
-| Styling | Vanilla CSS3 | CSS variables, color-mix(), backdrop-filter, grid, custom scrollbars |
+| Styling | Vanilla CSS3 | CSS variables, `color-mix()`, `backdrop-filter`, grid, custom scrollbars |
 | Logic | Vanilla JavaScript (ES2020+) | No framework overhead, fully readable |
-| Markdown rendering | marked.js via CDN | GitHub-flavored preview |
-| Typography | Fontsource (Inter + JetBrains Mono) | Privacy-friendly, no Google Fonts tracking |
-| Icons / badges | devicon, shields.io | Industry-standard vector assets |
+| Markdown rendering | [marked.js](https://github.com/markedjs/marked) via CDN | GitHub-flavored preview |
+| Typography | [Fontsource](https://fontsource.org/) (Inter + JetBrains Mono) | Privacy-friendly, no Google Fonts tracking |
+| Icons / badges | [devicon](https://devicons.dev/), [shields.io](https://shields.io/) | Industry-standard vector assets |
 
-📁 Project Structure
+## 📁 Project Structure
 
+```
 AreadmeForge/
 ├── index.html          # The entire application (HTML + CSS + JS)
 ├── assets/
@@ -168,139 +199,123 @@ AreadmeForge/
 ├── README.md           # You are here 👋
 └── .github/
     └── ISSUE_TEMPLATE/ # (optional) bug & feature templates
+```
 
-🧠 Yes, the whole app is one file. That's the point. Fork it, edit it, host it on GitHub Pages, send it to a friend via email — it just works.
+> 🧠 Yes, the whole app is one file. That's the point. Fork it, edit it, host it on GitHub Pages, send it to a friend via email — it just works.
 
-🏗️ How It Works
+## 🏗️ How It Works
 
+```
 ┌──────────────┐    input events     ┌──────────────┐
 │  Form panel  │ ─────────────────▶  │   State obj  │
 └──────────────┘                     └──────┬───────┘
-                                            │ 120ms debounce
-                                            ▼
-                                     ┌──────────────┐
-                                     │ buildMarkdown│
-                                     │   (pure fn)  │
-                                     └──────┬───────┘
-                                            │
-                          ┌─────────────────┼─────────────────┐
-                          ▼                 ▼                 ▼
-                   ┌────────────┐   ┌────────────┐   ┌──────────────┐
-                   │ Live HTML  │   │ Raw   │   │ Download /   │
-                   │ (marked)   │   │  preview   │   │ Copy actions │
-                   └────────────   └────────────┘   └──────────────┘
+                                           │ 120ms debounce
+                                           ▼
+                                    ┌──────────────┐
+                                    │ buildMarkdown│
+                                    │   (pure fn)  │
+                                    └──────┬───────┘
+                                           │
+                         ┌─────────────────┼─────────────────┐
+                         ▼                 ▼                 ▼
+                  ┌────────────┐   ┌────────────┐   ┌──────────────┐
+                  │ Live HTML  │   │ Raw MD     │   │ Download /   │
+                  │ (marked)   │   │  preview   │   │ Copy actions │
+                  └────────────┘   └────────────┘   └──────────────┘
+```
 
-Every input updates a single in-memory state object.
-A debounced render() rebuilds the Markdown string from scratch (pure function — easy to test, easy to extend).
-The Markdown is fed to marked.js for the preview pane and exposed raw for copy/download.
-Accent color changes propagate to CSS custom properties and to the generated Markdown (banner gradients, view counter color).
+1. Every input updates a single in-memory state object.
+2. A debounced `render()` rebuilds the Markdown string from scratch (pure function — easy to test, easy to extend).
+3. The Markdown is fed to marked.js for the preview pane and exposed raw for copy/download.
+4. Accent color changes propagate to CSS custom properties and to the generated Markdown (banner gradients, view counter color).
 
-🎨 Customization Tips
+## 🎨 Customization Tips
 
-Add a new skill → push a [name, devicon-path, url] tuple into the SKILLS array.
-Add a new widget → add a [key, label] entry to WIDGETS, a default in DEFAULTS.widgets, and a rendering block inside buildMarkdown().
-Add a new social → add a [key, label, placeholder] to SOCIALS and a matching BADGES[key] shields.io string.
-Change the UI theme → edit the :root CSS variables (--bg, --accent, --accent2, --radius).
+- **Add a new skill** → push a `[name, devicon-path, url]` tuple into the `SKILLS` array.
+- **Add a new widget** → add a `[key, label]` entry to `WIDGETS`, a default in `DEFAULTS.widgets`, and a rendering block inside `buildMarkdown()`.
+- **Add a new social** → add a `[key, label, placeholder]` to `SOCIALS` and a matching `BADGES[key]` shields.io string.
+- **Change the UI theme** → edit the `:root` CSS variables (`--bg`, `--accent`, `--accent2`, `--radius`).
 
-🗺️ Roadmap
+## 🗺️ Roadmap
 
-[ ] Light theme toggle
-[ ] Import / export JSON config (save your setup)
-[ ] Drag-and-drop widget ordering
-[ ] More skills (Go, Kotlin, Swift, TypeScript, AWS, Kubernetes…)
-[ ] i18n (Persian 🇮🇷, Spanish 🇪, French 🇫🇷…)
-[ ] PWA install + offline caching of CDN assets
-[ ] Shareable config via URL hash (#config=...)
-[ ] Template gallery (minimal, maximalist, terminal-style…)
+- [ ] Light theme toggle
+- [ ] Import / export JSON config (save your setup)
+- [ ] Drag-and-drop widget ordering
+- [ ] More skills (Go, Kotlin, Swift, TypeScript, AWS, Kubernetes…)
+- [ ] i18n (Persian 🇮🇷, Spanish 🇪🇸, French 🇫🇷…)
+- [ ] PWA install + offline caching of CDN assets
+- [ ] Shareable config via URL hash (`#config=...`)
+- [ ] Template gallery (minimal, maximalist, terminal-style…)
 
-PRs welcome for any of the above — see Contributing.
+PRs welcome for any of the above — see [Contributing](#-contributing).
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions make the open-source community an amazing place to learn, inspire, and create. Any contribution you make is greatly appreciated.
 
-🍴 Fork the repository
-🌿 Create your feature branch — git checkout -b feature/amazing-thing
-✏️ Commit your changes — git commit -m 'feat: add amazing thing'
-🚀 Push to the branch — git push origin feature/amazing-thing
-🎯 Open a Pull Request
+1. 🍴 **Fork** the repository
+2. 🌿 Create your feature branch — `git checkout -b feature/amazing-thing`
+3. ✏️ **Commit** your changes — `git commit -m 'feat: add amazing thing'`
+4. 🚀 **Push** to the branch — `git push origin feature/amazing-thing`
+5. 🎯 Open a **Pull Request**
 
-Please follow Conventional Commits and keep PRs focused on a single concern. For major changes, open an issue first so we can discuss the design.
+Please follow [Conventional Commits](https://www.conventionalcommits.org/) and keep PRs focused on a single concern. For major changes, open an issue first so we can discuss the design.
 
-❓ FAQ
+## ❓ FAQ
 
-Q: Do I need to install anything?
-A: No. Open index.html in any modern browser. That's the whole setup.
+**Q: Do I need to install anything?**
+A: No. Open `index.html` in any modern browser. That's the whole setup.
 
-Q: Does it send my data anywhere?
+**Q: Does it send my data anywhere?**
 A: No. Everything runs locally in your browser. The only network requests are CDN assets (fonts, icons, preview badges) which GitHub itself will also fetch when rendering your README.
 
-Q: Why is my snake widget empty?
-A: The snake SVG is generated by a GitHub Action in your profile repo. Add the Platane/snk workflow to your / repository and the snake will appear after the first run.
+**Q: Why is my snake widget empty?**
+A: The snake SVG is generated by a GitHub Action in your profile repo. Add the [Platane/snk workflow](https://github.com/Platane/snk) to your `<username>/<username>` repository and the snake will appear after the first run.
 
-Q: Can I use this for a project README (not a profile)?
+**Q: Can I use this for a project README (not a profile)?**
 A: Absolutely. The output is plain GitHub-flavored Markdown — drop it anywhere.
 
-Q: The preview looks different from GitHub.
+**Q: The preview looks different from GitHub.**
 A: AreadmeForge's preview mimics GitHub's dark theme. Minor styling differences (fonts, spacing) are expected; the structure and badges will render identically.
 
-📄 License
+## 📄 License
 
-Distributed under the MIT License. See LICENSE for the full text.
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for the full text.
 
-TL;DR — do whatever you want with it, just keep the copyright notice.
+> TL;DR — do whatever you want with it, just keep the copyright notice.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 AreadmeForge stands on the shoulders of giants. Huge thanks to the maintainers of:
 
-anuraghazra/github-readme-stats
-DenverCoder1/github-readme-streak-stats
-DenverCoder1/readme-typing-svg
-ryo-ma/github-profile-trophy
-Platane/snk
-kyechan99/capsule-render
-komarev/ghpvc
-devicons/devicon
-shields.io
-markedjs/marked
-fontsource/fontsource
+- [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+- [DenverCoder1/github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats)
+- [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg)
+- [ryo-ma/github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
+- [Platane/snk](https://github.com/Platane/snk)
+- [kyechan99/capsule-render](https://github.com/kyechan99/capsule-render)
+- [komarev/ghpvc](https://github.com/komarev/ghpvc)
+- [devicons/devicon](https://github.com/devicons/devicon)
+- [shields.io](https://shields.io/)
+- [markedjs/marked](https://github.com/markedjs/marked)
+- [fontsource/fontsource](https://github.com/fontsource/fontsource)
 
-👤 Author
+## 👤 Author
 
-Abolfazl Ghorbani — Software Engineer · Flutter × Rust
+**Abolfazl Ghorbani** — Software Engineer · Flutter × Rust
 
-🌐 Website — abolfazlghorbani84.ir
-▶️ YouTube — @abolfazl_ghorbani
-📧 Email — abolfazlghorbani369@proton.me
-🐙 GitHub — @aghorbani84
+[![Website](https://img.shields.io/badge/🌐_Website-abolfazlghorbani84.ir-blue)](https://abolfazlghorbani84.ir)
+[![YouTube](https://img.shields.io/badge/▶️_YouTube-@abolfazl_ghorbani-red?logo=youtube)](https://youtube.com/@abolfazl_ghorbani)
+[![Email](https://img.shields.io/badge/📧_Email-abolfazlghorbani369@proton.me-purple)](mailto:abolfazlghorbani369@proton.me)
+[![GitHub](https://img.shields.io/badge/🐙_GitHub-@aghorbani84-black?logo=github)](https://github.com/aghorbani84)
 
-⭐ If AreadmeForge saved you 30 minutes, drop a star — it fuels the roadmap.
+---
 
-Star this repo
+<p align="center">
+  ⭐ If AreadmeForge saved you 30 minutes, drop a star — it fuels the roadmap.
+</p>
 
-Made with  ☕ and an unhealthy amount of CSS by Abolfazl Ghorbani
-
-© 2026 — Released under the MIT License
-
-MIT License
-
-Copyright (c) 2026 Abolfazl Ghorbani
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+<p align="center">
+  Made with ☕ and an unhealthy amount of CSS by <b>Abolfazl Ghorbani</b><br/>
+  © 2026 — Released under the MIT License
+</p>
